@@ -1,0 +1,75 @@
+body {
+    width: 86%;
+    margin:auto;
+}
+.image1 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    background-color: black;
+}
+#navbar {
+    margin-top: 30px;
+}
+.title img{
+    width: 50%;
+}
+.wraptitle {
+    background-color: #9A0909;
+    text-align: center;
+}
+#showcase {
+    text-align: left;
+    background-color: #7D0909;
+    width: 20%;
+}
+#showcase a {
+    color:orange;
+}
+footer {
+    width: 100%;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    background-color: black;
+}
+main {
+    display: flex;
+    width: 100%;
+    background-color: #9A0909;
+}
+article {
+    width: 70%;
+    color: white;
+}
+aside {
+    width: 15%;
+    background-color: rgb(215, 223, 226);
+}
+aside h1 {
+    background-color: gray;
+    margin-top: 0;
+    text-align: center;
+}
+hr {
+    width: 50%;
+}
+.wrap {
+    background-color: #9A0909;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
