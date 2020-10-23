@@ -1,0 +1,82 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    position: absolute;
+    align-items: flex-end;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    position: absolute;
+    top: 70px;
+    left: 875px;
+}
+
+li {
+    font-weight: bold;
+    padding-left: 25px;
+    
+}
+
+.header p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    left: 25px;
+}
+
+.palka {
+    border-top: 3px solid #ff6033;
+    margin-top: -3px;
+}
+
+.text1 {
+    padding: 25px;
+    position: absolute;
+    width: 400px;
+    top: 300px;
+}
+
+.text1 h1 {
+    font-size: 50px;
+}
+
+.button {
+    background-color: #ff6033;
+    color: white;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.section2 {
+    background-color: #00b7b7;
+    margin-right: 19.2px;
+    position: relative;
+    top:-135px;
+    height: 650px;
+}
+
+.scroll {
+    position: relative;
+    text-align: center;
+    top: -150px;
+}
+
+.text2 {
+    position: relative;
+    width: 400px;
+    color: white;
+    top: -500px;
+    left: 1000px;
+}
+
+.text2 h1 {
+    font-size: 50px;
+}
