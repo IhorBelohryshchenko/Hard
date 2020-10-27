@@ -1,0 +1,121 @@
+body {
+    background-color: #282828;
+}
+.background {
+    position: relative;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    left: 630px;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+header p {
+    color: #434343;
+    margin-top: -20px;
+}
+
+article {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 250px;
+    left: 150px;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.field input{
+    border: none;
+    background-color: #7adcdc;
+    color: white;
+    padding: 1em;
+    width: 450px;
+    outline: none;
+    opacity: 0.7;
+}
+
+.field input:focus, .field textarea:focus {
+    background-color: #00c4c4;
+}
+
+.field input::-webkit-input-placeholder {
+    color: white;
+}
+
+.field textarea {
+    border: none;
+    background-color: #7adcdc;
+    color: white;
+    padding: 1em;
+    width: 450px;
+    height: 150px;
+    outline: none;
+    opacity: 0.7;
+}
+
+.field textarea::-webkit-input-placeholder {
+    color: white;
+}
+
+.contact {
+    position: absolute;
+    left: 800px;
+    width: 250px;
+}
+
+.contact .text {
+    font-weight: bold;
+}
+
+.contact p {
+    margin-top: 0;
+    color: #434343;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+
+footer .rights {
+    color: #7e7e7e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .company {
+    color: #a5a5a5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: -5px;
+}
+
+footer .author {
+    color: #7e7e7e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .author span {
+    color: #ff2b58;
+    font-family: Arial, Helvetica, sans-serif;
+}
